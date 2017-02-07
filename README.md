@@ -1,6 +1,6 @@
 # Mr.Node
 
-<img src="mrnodelogo.PNG">
+<img src="mrnodelogo.png">
 
 A Javascript Library for [Node.js](https://nodejs.org) Functions
 
