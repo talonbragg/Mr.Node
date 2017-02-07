@@ -48,9 +48,19 @@ function createmincss() {
 // Minify Files, File types: Javascript
 function minifyjs() {
     gulp.task('uglify', function() {
-    gulp.src('public/js/*.js')
+    gulp.src('src/*.js')
     .pipe(uglify())
     .pipe(gulp.dest('dist/js'))
 });
 
+}
+function minifycss() {
+    gulp.task('minify', function() {
+    return gulp.src(['dist/*.css'])
+    .pipe(minifyCSS())
+    .pipe($.header(comment))
+    .pipe($.size())
+    .pipe($.concat('main.min.css'))
+    .pipe(gulp.dest('dist'));
+});
 }
