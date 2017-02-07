@@ -4,7 +4,8 @@
   "description": "A Javascript Library for Node.js Functions",
   "main": "index.js",
   "scripts": {
-    "test": "no test yet"
+    "test": "no test yet",
+    "build": "gulp"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,15 @@
     "url": "https://github.com/talonbragg/Mr.Node/issues"
   },
   "homepage": "https://github.com/talonbragg/Mr.Node#readme",
+    "autoupdate": {
+    "source": "git",
+    "target": "git://github.com/talonbragg/Mr.Node.git",
+    "basePath": "dist/js",
+    "files": [
+      "wing.min.css",
+      "wing.css"
+    ]
+  },
   "devDependencies": {
     "custommarkup": "^1.1.12",
     "fs": "0.0.1-security",
