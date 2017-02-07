@@ -2,12 +2,14 @@
 // Copyright 2017 Talon Bragg
 // Open Source and free to use
 // Licensed under the MIT liscense
+
 //Variables
 var fs = require('fs');
 var gulp = require('gulp');
 var uglify = require('gulp-uglify');
 var pump = require('pump');
 var uglify = require('gulp-uglifyjs');
+var minifyCSS = require('gulp-minify-css');
 //Front end file creations, File types: Javascript, CSS, HTML
 function createjs() {
     fs.writeFile('rename.js', '//change the name of this file to whatever you like', function(err) {
