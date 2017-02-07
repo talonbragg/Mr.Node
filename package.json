@@ -34,11 +34,12 @@
   "devDependencies": {
     "custommarkup": "^1.1.12",
     "fs": "0.0.1-security",
-    "gulp": "^3.9.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^2.0.1",
-    "gulp-uglifyjs": "^0.6.2",
+    "gulp": "latest",
+    "gulp-concat": "latest",
+    "gulp-rename": "latest",
+    "gulp-uglify": "latest",
+    "gulp-uglifyjs": "latest",
+    "gulp-minify-css": "latest"
     "pump": "^1.0.2"
   }
 }
