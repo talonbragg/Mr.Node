@@ -4,7 +4,7 @@
   "description": "A Javascript Library for Node.js Functions",
   "main": "index.js",
   "scripts": {
-    "test": "no test yet",
+    "test": "vows --spec",
     "build": "gulp"
   },
   "repository": {
