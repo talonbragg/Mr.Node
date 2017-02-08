@@ -10,6 +10,8 @@ var uglify = require('gulp-uglify');
 var pump = require('pump');
 var uglify = require('gulp-uglifyjs');
 var minifyCSS = require('gulp-minify-css');
+var del = require('del');
+var vinylPaths = require('vinyl-paths');
 //Front end file creations, File types: Javascript, CSS, HTML
 function createjs() {
     fs.writeFile('rename.js', '//change the name of this file to whatever you like', function(err) {
@@ -44,6 +46,17 @@ function createmincss() {
         if (err) return console.log(err);
         console.log('Minified Cascading Style Sheets file created');
     });
+}
+// Delete Files
+function delete(file) {
+    gulp.task('clean:tmp', function () {
+    return gulp.src(file)
+    .pipe(vinylPaths(del))
+    .pipe(stripDebug())
+    .pipe(gulp.dest('dist'));
+});
+
+gulp.task('default', ['clean:tmp']);
 }
 // Minify Files, File types: Javascript
 function minifyjs() {
