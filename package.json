@@ -39,7 +39,7 @@
     "gulp-rename": "latest",
     "gulp-uglify": "latest",
     "gulp-uglifyjs": "latest",
-    "gulp-minify-css": "latest"
+    "gulp-minify-css": "latest",
     "pump": "^1.0.2"
   }
 }
