@@ -77,3 +77,11 @@ function minifycss() {
     .pipe(gulp.dest('dist'));
 });
 }
+//Beautify Files
+function beautify(file) {
+    gulp.task('beautify', function() {
+    gulp.src(file)
+    .pipe(beautify({indent_size: 2}))
+    .pipe(gulp.dest('./public/'))
+});
+}
