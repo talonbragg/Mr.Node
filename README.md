@@ -1,4 +1,5 @@
 # Mr.Node
+[![Build Status](https://travis-ci.org/talonbragg/Mr.Node.svg?branch=master)](https://travis-ci.org/talonbragg/Mr.Node)
 
 <img src="https://www.mrnode.tk/tophatlogo%20(2).png">
 
