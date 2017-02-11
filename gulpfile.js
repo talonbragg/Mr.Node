@@ -7,7 +7,6 @@ var $ = require('gulp-load-plugins')();
 gulp.task('build', function () {
   return gulp.src(['public/js/main.min.js'])
     .pipe($.concat('main.css'))
-    .pipe($.header(comment + '\n'))
     .pipe($.size())
     .pipe(gulp.dest('./dist/'));
 });
