@@ -43,6 +43,7 @@
     "gulp-sass": "^3.1.0",
     "gulp-uglify": "^2.0.1",
     "gulp-uglifyjs": "^0.6.2",
+    "gulp-load-plugins": "^1.2.4",
     "pump": "^1.0.2"
   },
   "dependencies": {
