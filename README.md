@@ -10,7 +10,7 @@ Mr.Node
 <p align = "center">
 <a href="https://mrnode.tk"><img src="https://www.mrnode.tk/tophatlogo%20(2).png"></a>
 </p>
-<p align="center">A Javascript Library for [Node.js](https://nodejs.org) Functions</p>
+<p align="center"><b>A Javascript Library for [Node.js](https://nodejs.org) Functions</b></p>
 
 ## Table Of Contents
 
