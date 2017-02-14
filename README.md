@@ -12,7 +12,7 @@ Mr.Node
 - <a href="#about">About</a>
 - <a href="#docs">Documentation</a>
 - <a href="#feat">Features</a>
-- <a href="li">License &amp; Copyright</a>
+- <a href="#li">License &amp; Copyright</a>
 
 <a name="about"></a>
 ## About
@@ -51,6 +51,6 @@ Insert code here
 <a name="li"></a>
 ## License &amp; Copyright
 
-Licensed under the [MIT License]()
+Licensed under the [MIT License](https://github.com/talonbragg/Mr.Node/blob/master/LICENSE)
 
 :copyright: **2017 Talon Bragg**
