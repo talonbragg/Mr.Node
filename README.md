@@ -9,13 +9,13 @@ Mr.Node
 **A Javascript Library for [Node.js](https://nodejs.org) Functions**
 
 ## Table Of Contents
-**
-- <a href="#about">About</a>
-- <a href="#docs">Documentation</a>
-- <a href="#start">Getting Started</a>
-- <a href="#feat">Features</a>
-- <a href="#li">License &amp; Copyright</a>
-**
+
+- <a href="#about">**About**</a>
+- <a href="#docs">**Documentation**</a>
+- <a href="#start">**Getting Started**</a>
+- <a href="#feat">**Features**</a>
+- <a href="#li">**License &amp; Copyright**</a>
+
 <a name="about"></a>
 ## About
 Mr. Node is extremely easy to use. It is also very fast. **He is very smart**.
