@@ -1,0 +1,1 @@
+var mrnode = module.exports{};
