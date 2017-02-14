@@ -41,18 +41,18 @@ After you have installed Mr.Node, use Node's require attribute in your Javascrip
 <a name="feat"></a>
 ## Features
 
-**Feature1**:
+**Convert Sass to CSS**:
 ```javascript
    mrnode.csass('yourfolder/yourfile', 'yourdestinationfolder');
 ```
 
-**Feature2**:
+**Minify Files**:
 ```javascript
    mrnode.minifyjs('yourfolder/yourfile','yourdestination');
    mrnode.minifycss('yourfolder/yourfile','yourdestinationfolder');
 ```
 
-**Feature3**:
+**Beautify Files**:
 ```javascript
    mrnode.beautify('yourfolder/yourfile', 'yourdestinationfolder');
 ```
