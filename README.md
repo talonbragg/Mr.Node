@@ -2,8 +2,8 @@
 Mr.Node
 </h1>
 
-<a href="https://travis-ci.org/talonbragg/Mr.Node.svg?branch=master"><img src="https://travis-ci.org/talonbragg/Mr.Node.svg?branch=master"></a>
-<a href="https://gitter.im/mr_node/Lobby"><img src="https://badges.gitter.im/orgs/mr-node/mr-node.svg"></a>
+<a align="center" href="https://travis-ci.org/talonbragg/Mr.Node.svg?branch=master"><img src="https://travis-ci.org/talonbragg/Mr.Node.svg?branch=master"></a>
+<a align="center" href="https://gitter.im/mr_node/Lobby"><img src="https://badges.gitter.im/orgs/mr-node/mr-node.svg"></a>
 
 <p align = "center">
 <a href="https://mrnode.tk"><img src="https://www.mrnode.tk/tophatlogo%20(2).png"></a>
