@@ -41,7 +41,7 @@ After you have installed Mr.Node, use Node's require attribute in your Javascrip
    var mrnode = require('mrnode');
 ```
 <a name="feat"></a>
-## Features
+## Main Features
 
 **Convert Sass to CSS**:
 ```javascript
@@ -59,7 +59,7 @@ After you have installed Mr.Node, use Node's require attribute in your Javascrip
    mrnode.beautify('yourfolder/yourfile', 'yourdestinationfolder');
 ```
 
-**To see more visit the [Website](https://mrnode.tk).**
+**To see more visit the [website](https://mrnode.tk).**
 
 <a name="li"></a>
 ## License &amp; Copyright
