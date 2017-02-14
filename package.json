@@ -2,7 +2,7 @@
   "name": "mrnode",
   "version": "0.1.1",
   "description": "A Javascript Library for Node.js Functions",
-  "main": "dist/js/main.min.js",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "vows --spec",
     "build": "gulp"
