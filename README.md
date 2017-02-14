@@ -16,7 +16,7 @@ Mr.Node
 
 <a name="about"></a>
 ## About
-Mr. Node is... [Insert txt here]. It's very... [Insert txt here]
+Mr. Node is extremely easy to use. It is also very fast. **He is very smart**.
 
 <a name="docs"></a>
 ## Documentation
@@ -30,22 +30,31 @@ npm install --save-dev mrnode
 bower install --save-dev mrnode
 ```
 
+<a name="start"></a>
+## Getting Started
+
+After you have installed Mr.Node, use Node's require attribute in your Javascript file. 
+
+```javascript
+   var mrnode = require('mrnode');
+```
 <a name="feat"></a>
 ## Features
 
 **Feature1**:
 ```javascript
-Insert code here
+   mrnode.csass('yourfolder/yourfile', 'yourdestinationfolder');
 ```
 
 **Feature2**:
 ```javascript
-Insert code here
+   mrnode.minifyjs('yourfolder/yourfile','yourdestination');
+   mrnode.minifycss('yourfolder/yourfile','yourdestinationfolder');
 ```
 
 **Feature3**:
 ```javascript
-Insert code here
+   mrnode.beautify('yourfolder/yourfile', 'yourdestinationfolder');
 ```
 
 <a name="li"></a>
