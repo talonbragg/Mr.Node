@@ -8,15 +8,49 @@ Mr.Node
 </p>
 **A Javascript Library for [Node.js](https://nodejs.org) Functions**
 
-# Table Of Contents
+## Table Of Contents
+- <a href="#about">About</a>
+- <a href="#docs">Documentation</a>
+- <a href="#feat">Features</a>
+- <a href="li">License &amp; Copyright</a>
 
+<a name="about"></a>
+## About
+Mr. Node is... [Insert txt here]. It's very... [Insert txt here]
+
+<a name="docs"></a>
 ## Documentation
-Npm: `npm install --save-dev mrnode`
+**Npm:** 
+```shell
+npm install --save-dev mrnode
+```
 
-Bower: `bower install --save-dev mrnode`
+**Bower:** 
+```shell
+bower install --save-dev mrnode
+```
 
-
+<a name="feat"></a>
 ## Features
+
+**Feature1**:
 ```javascript
 Insert code here
 ```
+
+**Feature2**:
+```javascript
+Insert code here
+```
+
+**Feature3**:
+```javascript
+Insert code here
+```
+
+<a name="li"></a>
+## License &amp; Copyright
+
+Licensed under the [MIT License]()
+
+:copyright: **2017 Talon Bragg**
