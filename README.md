@@ -1,8 +1,10 @@
 <h1 align="center">
 Mr.Node
 </h1>
-[![Build Status](https://travis-ci.org/talonbragg/Mr.Node.svg?branch=master)](https://travis-ci.org/talonbragg/Mr.Node)
-[![Join the chat at https://gitter.im/mr-node/Lobby](https://badges.gitter.im/mr-node/Lobby.svg)](https://gitter.im/mr-node/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+<a href="https://travis-ci.org/talonbragg/Mr.Node.svg?branch=master"><img src="https://travis-ci.org/talonbragg/Mr.Node.svg?branch=master"></a>
+<a href="https://gitter.im/mr_node/Lobby"><img src="https://badges.gitter.im/orgs/mr-node/mr-node.svg"></a>
+
 <p align = "center">
 <a href="https://mrnode.tk"><img src="https://www.mrnode.tk/tophatlogo%20(2).png"></a>
 </p>
