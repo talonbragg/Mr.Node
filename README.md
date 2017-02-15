@@ -22,7 +22,7 @@ Mr.Node
 
 <a name="about"></a>
 ## About
-Mr. Node is extremely easy to use. It is also very fast. **He is very smart**.
+Node.js makes it very easy to use Javascript. Mr.Node make it even easier to use Javascript. It gives a simple API to carry out functions. This way you don't have to write five lines of code for each function. **He is very smart**.
 
 <a name="docs"></a>
 ## Documentation
