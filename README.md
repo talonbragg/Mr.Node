@@ -70,6 +70,22 @@ After you have installed Mr.Node, use Node's require attribute in your Javascrip
 
 **To see more visit the [website](https://mrnode.tk).**
 
+## Customizing Functions
+You probably want to customize these functions that I have made. Many of the functions use npm **[Dependencies](https://docs.npmjs.com/files/package.json)**. With some knowledge, you can customize these functions to the better likings of your self.
+
+**Example:**
+
+```javascript
+function create(name, extension) {
+    fs.writeFile(name + '.' + extension, '//change the name of this file to whatever you like', function(err) {
+        if (err) return console.log(err);
+        console.log('File Created');
+        .pipe(gulp.dest('destination'))
+    });
+}
+```
+
+In this example you add a destination to the `create();` function.
 <a name="li"></a>
 ## License &amp; Copyright
 
