@@ -80,7 +80,7 @@ function create(name, extension) {
     fs.writeFile(name + '.' + extension, '//change the name of this file to whatever you like', function(err) {
         if (err) return console.log(err);
         console.log('File Created');
-        **.pipe(gulp.dest('destination'))**
+        .pipe(gulp.dest('destination'))
     });
 }
 ```
