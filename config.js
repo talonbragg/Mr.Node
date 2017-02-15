@@ -1,1 +1,1 @@
-var mrnode = module.exports{};
+var mrnode = module.exports;
