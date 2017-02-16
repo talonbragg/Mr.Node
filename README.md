@@ -36,7 +36,7 @@ bower install --save-dev mrnode
 
 **CDN:**
 ```html
-<script src="https://unpkg.com/mrnode@0.1.4/dist/js/main.min.js">
+<script src="https://unpkg.com/mrnode@0.1.9/dist/js/main.min.js">
 ```
 <a name="start"></a>
 ## Getting Started
