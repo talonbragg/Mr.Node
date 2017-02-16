@@ -5,7 +5,6 @@ Mr.Node
 <p align="center">
 <a href="https://travis-ci.org/talonbragg/Mr.Node.svg?branch=master"><img align="center" src="https://travis-ci.org/talonbragg/Mr.Node.svg?branch=master"></a>
 <a href="https://gitter.im/mr_node/Lobby"><img align="center" src="https://badges.gitter.im/orgs/mr-node/mr-node.svg"></a>
-<a href="https://cdnjs.com/libraries/custommarkup/"><img src="https://img.shields.io/cdnjs/v/custommarkup.svg"></a>
 </p>
 
 
