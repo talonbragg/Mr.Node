@@ -3,8 +3,7 @@ Mr.Node
 </h1>
 
 <p align="center">
-<a href="https://travis-ci.org/talonbragg/Mr.Node.svg?branch=master"><img align="center" src="https://travis-ci.org/talonbragg/Mr.Node.svg?branch=master"></a>
-<a href="https://gitter.im/mr_node/Lobby"><img align="center" src="https://badges.gitter.im/orgs/mr-node/mr-node.svg"></a>
+<a href="https://travis-ci.org/talonbragg/Mr.Node.svg?branch=master"><img align="center" src="https://travis-ci.org/talonbragg/Mr.Node.svg?branch=master"></a><a href="https://gitter.im/mr_node/Lobby"><img align="center" src="https://badges.gitter.im/orgs/mr-node/mr-node.svg"></a>
 </p>
 
 
