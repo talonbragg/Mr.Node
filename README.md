@@ -3,17 +3,7 @@ Mr.Node
 </h1>
 
 <p align="center">
-<a href="https://travis-ci.org/talonbragg/Mr.Node.svg?branch=master"><img align="center" src="https://travis-ci.org/talonbragg/Mr.Node.svg?branch=master"></a><a href="https://gitter.im/mr_node/Lobby"><img align="center" src="https://badges.gitter.im/orgs/mr-node/mr-node.svg"></a>
-</p>
-
-
-
-
-[![CDNJS](https://img.shields.io/cdnjs/v/custommarkup.svg)](https://cdnjs.com/libraries/custommarkup/)
-
-
-
-
+<a href="https://travis-ci.org/talonbragg/Mr.Node.svg?branch=master"><img align="center" src="https://travis-ci.org/talonbragg/Mr.Node.svg?branch=master"></a>
 
 <p align = "center">
 <a href="https://mrnode.tk"><img src="https://www.mrnode.tk/tophatlogo%20(2).png"></a>
