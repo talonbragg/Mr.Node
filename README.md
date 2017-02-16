@@ -46,8 +46,7 @@ bower install --save-dev mrnode
 After you have installed Mr.Node, use Node's require attribute in your Javascript file. 
 
 ```javascript
-   var mrnodei = require('mrnode');
-   var mrnode = new mrnode();
+   var mrnode = require('mrnode');
 ```
 <a name="feat"></a>
 ## Main Features
