@@ -89,7 +89,7 @@ function create(name, extension) {
 }
 ```
 
-In this example you add a destination to the `create();` function.
+In this example you add a destination to the `create();` function. The code for this was `.pipe(gulp.dest('destination'))`.
 <a name="li"></a>
 ## License &amp; Copyright
 
