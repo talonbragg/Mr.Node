@@ -161,3 +161,5 @@ mrnode.minifyjs('main.js', 'dist');
 mrnode.minifycss('main.css', 'dist');
 //Beautify
 mrnode.beautify('main.js', 'dist');
+mrnode.beautify('main.css', 'dist');
+mrnode.beautify('index.html', 'html');
