@@ -4,7 +4,7 @@
   "description": "A Javascript Library for Node.js Functions",
   "main": "dist/js/main.js",
   "scripts": {
-    "test": "mocha",
+    "test": "gulp test && node test/test.js",
     "build": "gulp"
   },
   "repository": {
