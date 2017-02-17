@@ -46,6 +46,13 @@ After you have installed Mr.Node, use Node's require attribute in your Javascrip
 ```javascript
    var mrnode = require('mrnode');
 ```
+
+## Running Tests
+All That you have to do is type this simple command into the terminal when you are in the directory of Mr.Node:
+
+```shell
+$ npm test
+```
 <a name="feat"></a>
 ## Main Features
 
