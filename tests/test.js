@@ -6,6 +6,9 @@
 //Main Test script
 var mocha = require('mocha');
 var assert = require('assert');
+if(!chai) {
+  var chai = require("chai");
+}
 describe('Array', function() {
 describe('#indexOf()', function() {
     var mrnode = module.exports;
