@@ -8,22 +8,6 @@ var mocha = require('mocha');
 var assert = require('assert');
 describe('Array', function() {
 describe('#indexOf()', function() {
-    // Mr.node
-    // Copyright 2017 Talon Bragg
-    // Open Source and free to use
-    // Licensed under the MIT liscense
-    //Variables
-    var fs = require('fs');
-    var gulp = require('gulp');
-    var uglify = require('gulp-uglify');
-    var pump = require('pump');
-    var uglify = require('gulp-uglifyjs');
-    var minifyCSS = require('gulp-minify-css');
-    var del = require('del');
-    var vinylPaths = require('vinyl-paths');
-    var beautify = require('gulp-beautify');
-    var sass = require('gulp-sass');
-    var rename = require('gulp-rename');
     var mrnode = module.exports;
 
 
