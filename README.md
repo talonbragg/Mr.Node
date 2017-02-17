@@ -4,6 +4,11 @@ Mr.Node
 
 <p align="center">
 <a href="https://travis-ci.org/talonbragg/Mr.Node.svg?branch=master"><img align="center" src="https://travis-ci.org/talonbragg/Mr.Node.svg?branch=master"></a>
+</p>
+
+<p align="center"><a href="https://codecov.io/gh/talonbragg/Mr.Node">
+  <img src="https://codecov.io/gh/talonbragg/Mr.Node/branch/master/graph/badge.svg" alt="Codecov" />
+</a></p>
 
 <p align = "center">
 <a href="https://mrnode.tk"><img src="https://www.mrnode.tk/tophatlogo%20(2).png"></a>
