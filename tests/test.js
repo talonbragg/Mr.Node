@@ -145,7 +145,7 @@ mrnode.createserver = function(port) {
 //
 // User tests
 //
-//
+//Create function
 mrnode.create('main', 'js');
 mrnode.create('main', 'css');
 mrnode.create('index', 'html');
@@ -153,3 +153,11 @@ mrnode.create('main', 'py');
 mrnode.create('main', 'c');
 mrnode.create('main', 'sh');
 mrnode.create('main', 'java');
+//Delete Function
+mrnode.delt('main.js', 'dist');
+mrnode.delt('main.min.js', 'dist');
+//Minify
+mrnode.minifyjs('main.js', 'dist');
+mrnode.minifycss('main.css', 'dist');
+//Beautify
+mrnode.beautify('main.js', 'dist');
