@@ -8,3 +8,4 @@ env:
 - CODECOV_TOKEN="72b8f510-2d23-4c97-b60d-82ddaeafd14b"
 after_success:
   - bash <(curl -s https://codecov.io/bash)
+  - bash npm test
