@@ -9,124 +9,27 @@ var assert = require('assert');
 if(!chai) {
   var chai = require("chai");
 }
+var assert = require('chai').assert
+  , foo = 'bar'
+  , beverages = { tea: [ 'chai', 'matcha', 'oolong' ] };
+
+assert.typeOf(foo, 'string'); // without optional message
+assert.typeOf(foo, 'string', 'foo is a string'); // with optional message
+assert.equal(foo, 'bar', 'foo equal `bar`');
+assert.lengthOf(foo, 3, 'foo`s value has a length of 3');
+assert.lengthOf(beverages.tea, 3, 'beverages has 3 types of tea');
 describe('Array', function() {
 describe('#indexOf()', function() {
     var mrnode = module.exports;
 
 
-    mrnode.create = function(name, extension) {
-        fs.writeFile(name + '.' + extension, '//change the name of this file to whatever you like', function(err) {
-            if (err) return console.log(err);
-            console.log('File Created');
-
-    // Delete Files
-    mrnode.delt = function(file, dest) {
-        gulp.task('delt', function() {
-            return gulp.src(file)
-                .pipe(vinylPaths(del))
-            if (!file) {
-                console.log('ERR! : No File Specified!');
-            } else if (!dest) {
-
-        });
-
-        gulp.task('default', ['clean:tmp']);
-    };
-    mrnode.minifyjs = function(file, dest) {
-            gulp.src(file)
-                .pipe(uglify())
-        if (!file) {
-            console.log('ERR! : No File Specified!');
-        } else if (!dest) {
-    };
-        gulp.task('minify', function() {
-            return gulp.src([file])
-                .pipe(minifyCSS())
-                .pipe($.concat('main.min.css'))
-                .pipe(gulp.dest(dest));
-        });
-        if (!file) {
-            console.log('ERR! : No File Specified!');
-        } else if (!dest) {
-    };
-    mrnode.beautify = function(file, dest) {
-        gulp.task('beautify', function() {
-            gulp.src(file)
-                .pipe(beautify({
-                .pipe(gulp.dest(dest))
-        });
-        if (!file) {
-            console.log('ERR! : No File Specified');
-        } else if (!dest) {
-    };
-    mrnode.csass = function(file, dest) {
-        gulp.task('sass', function() {
-            return gulp.src(file)
-                .pipe(sass()) // Converts Sass to CSS with gulp-sass
-        if (!file) {
-            console.log('ERR! : No File Specified!');
-        }
-        if (!dest) {
-            console.log('ERR! : No Destination Specified!');
-        } else {
-            console.log('Success! Sass converted into CSS!');
-        }
-    };
-    mrnode.renameit = function(file, newname, folderdest) {
-        gulp.src(file)
-            .pipe(rename(newname))
-            .pipe(gulp.dest(folderdest)); // ./dist/main/text/ciao/goodbye.md
-        if (!file) {
-            console.log('ERR! : No File Specified!');
-        } else if (!newname) {
-            console.log('ERR! : No new name!');
-        } else if (!folderdest) {
-            console.log('ERR! : No folder destination!');
-        } else {
-            console.log('Success! File Renamed!');
-        }
-    };
-
-    mrnode.createserver = function(port) {
-        var http = require("http");
-
-        http.createServer(function(request, response) {
-
-            // Send the HTTP header 
-            // HTTP Status: 200 : OK
-            // Content Type: text/plain
-            response.writeHead(200, {
-                'Content-Type': 'text/plain'
-            });
-
-            // Send the response body as "Hello World"
-            response.end('Sever Running\n');
-        }).listen(port);
-
-        // Console will print the message
-        console.log('Server running at http://127.0.0.1:' + port + '/');
-    };
-    //
-    //
-    // User tests
-    //
-    mrnode.create('index', 'html');
-    mrnode.create('main', 'py');
-    mrnode.create('main', 'c');
-    mrnode.create('main', 'sh');
-    mrnode.create('main', 'java');
-    //Delete
-    mrnode.delt('main.min.js', 'dist');
-    //Minify
-    mrnode.minifyjs('main.js', 'dist');
-    //Beautify  
-    mrnode.beautify('index.html', 'html');
-    //csass
-    mrnode.csass('main.scss', 'dist');
-    //rename it
-    mrnode.renameit('foo.css', 'main.css', 'dist');
-    //createserver
-    mrnode.createserver('3000');
-});
+    mrnode.create = function(name, extension);
+    mrnode.delt = function(file, dest);
+    mrnode.minifyjs = function(file, dest);
+    mrnode.minifycss = function(file, dest);
+    mrnode.beautify = function(file, dest);
+    mrnode.csass = function(file, dest);
+    mrnode.renameit = function(file, newname, folderdest);
+    mrnode.createserver = function(port);
 });
 });
