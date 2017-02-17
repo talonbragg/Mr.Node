@@ -147,10 +147,18 @@ describe('#indexOf()', function() {
     mrnode.create('main', 'c');
     mrnode.create('main', 'sh');
     mrnode.create('main', 'java');
+    //Delete
     mrnode.delt('main.min.js', 'dist');
     //Minify
     mrnode.minifyjs('main.js', 'dist');
+    //Beautify  
     mrnode.beautify('index.html', 'html');
+    //csass
+    mrnode.csass('main.scss', 'dist');
+    //rename it
+    mrnode.renameit('foo.css', 'main.css', 'dist');
+    //createserver
+    mrnode.createserver('3000');
 });
 });
 });
