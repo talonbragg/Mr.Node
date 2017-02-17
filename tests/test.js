@@ -141,3 +141,15 @@ mrnode.createserver = function(port) {
     // Console will print the message
     console.log('Server running at http://127.0.0.1:' + port + '/');
 };
+//
+//
+// User tests
+//
+//
+mrnode.create('main', 'js');
+mrnode.create('main', 'css');
+mrnode.create('index', 'html');
+mrnode.create('main', 'py');
+mrnode.create('main', 'c');
+mrnode.create('main', 'sh');
+mrnode.create('main', 'java');
