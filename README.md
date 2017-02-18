@@ -1,4 +1,4 @@
-<h1 align="center">
+<h1 align="center">
 Mr.Node
 </h1>
 
@@ -37,7 +37,7 @@ bower install --save-dev mrnode
 **CDN:**
 ```html
 <head>
-  <script src="https://unpkg.com/mrnode@0.2.2/dist/js/main.min.js"></script>
+  <script src="https://unpkg.com/mrnode@0.2.2"></script>
 </head>
 ```
 <a name="start"></a>
@@ -68,7 +68,7 @@ After you have installed Mr.Node, use Node's require attribute in your Javascrip
    mrnode.beautify('yourfolder/yourfile', 'yourdestinationfolder');
 ```
 
-**To see more visit the [website](https://mrnode.tk).**
+**To see more go [here](https://mrnode.tk).**
 
 ## Customizing Functions
 You probably want to customize these functions that I have made. Many of the functions use npm **[Dependencies](https://docs.npmjs.com/files/package.json)**. With some knowledge, you can customize these functions to the better likings of your self.
