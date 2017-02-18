@@ -46,13 +46,7 @@ After you have installed Mr.Node, use Node's require attribute in your Javascrip
 ```javascript
    var mrnode = require('mrnode');
 ```
-
-## Running Tests
-All That you have to do is type this simple command into the terminal when you are in the directory of Mr.Node:
-
-```shell
-$ npm test
-```
+
 <a name="feat"></a>
 ## Main Features
 
@@ -92,7 +86,6 @@ function create(name, extension) {
 In this example you add a destination to the `create();` function. The code for this was `.pipe(gulp.dest('destination'))`.
 <a name="li"></a>
 ## License &amp; Copyright
+://github.com/talonbragg/Mr.Node/blob/master/LICENSE)
 
-Licensed under the [MIT License](https://github.com/talonbragg/Mr.Node/blob/master/LICENSE)
-
-:copyright: **2017 Talon Bragg**
+:copyright: **2017 Talon Bragg(Works on Library) & Shreyas Lad(Crafts README)**
