@@ -14,6 +14,7 @@ var vinylPaths = require('vinyl-paths');
 var beautify = require('gulp-beautify');
 var sass = require('gulp-sass');
 var rename = require('gulp-rename');
+var babel = require('gulp-babel');
 var mrnode = module.exports;
 
 
@@ -140,4 +141,13 @@ mrnode.createserver = function(port) {
 
     // Console will print the message
     console.log('Server running at http://127.0.0.1:' + port + '/');
+};
+mrnode.transpile = function(file, dest) {
+    gulp.task('default', function() {
+    return gulp.src(file)
+        .pipe(babel({
+            presets: ['es2015']
+        }))
+        .pipe(gulp.dest(dest));
+});
 };
