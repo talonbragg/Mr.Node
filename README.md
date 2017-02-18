@@ -37,7 +37,7 @@ bower install --save-dev mrnode
 **CDN:**
 ```html
 <head>
-  <script src="https://unpkg.com/mrnode@0.2.2/dist/js/main.min.js">
+  <script src="https://unpkg.com/mrnode@0.2.2/dist/js/main.min.js"></script>
 </head>
 ```
 <a name="start"></a>
@@ -48,7 +48,7 @@ After you have installed Mr.Node, use Node's require attribute in your Javascrip
 ```javascript
    var mrnode = require('mrnode');
 ```
-
+
 <a name="feat"></a>
 ## Main Features
 
