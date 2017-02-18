@@ -1,6 +1,6 @@
-{
+{
   "name": "mrnode",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "A Javascript Library for Node.js Functions",
   "main": "dist/js/main.js",
   "scripts": {
@@ -16,7 +16,7 @@
     "Mr.Node",
     "node"
   ],
-  "author": "Talon Bragg <pvpgamecrash@gmail.com> (http://talonbragg.com) & Shreyas Lad",
+  "author": "Talon Bragg <pvpgamecrash@gmail.com> (http://talonbragg.com)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/talonbragg/Mr.Node/issues"
