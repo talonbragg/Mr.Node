@@ -94,4 +94,4 @@ In this example you add a destination to the `create();` function. The code for 
 ## License &amp; Copyright
 ://github.com/talonbragg/Mr.Node/blob/master/LICENSE)
 
-:copyright: **2017 Talon Bragg(Works on Library) & Shreyas Lad(Crafts README)**
+:copyright: **2017 Talon Bragg**
