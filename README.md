@@ -94,4 +94,6 @@ In this example you add a destination to the `create();` function. The code for 
 ## License &amp; Copyright
 :copyright: [License](https://github.com/talonbragg/Mr.Node/blob/master/LICENSE)
 
+[MIT License Template](https://opensource.org/licenses/MIT)
+
 :copyright: **2017 Talon Bragg**
