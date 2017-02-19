@@ -4,8 +4,6 @@ node_js:
 before_script:
   - npm install -g gulp
 script: gulp
-env:
-- CODECOV_TOKEN="68036b6f-8a29-4b6d-8bc1-909127e85bcf"
 after_success:
   - bash <(curl -s https://codecov.io/bash)
   - npm test
