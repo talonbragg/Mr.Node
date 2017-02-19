@@ -6,4 +6,3 @@ before_script:
 script: gulp
 after_success:
   - bash <(curl -s https://codecov.io/bash)
-  - npm test
