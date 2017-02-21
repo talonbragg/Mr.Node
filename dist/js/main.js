@@ -140,7 +140,12 @@ mrnode.createserver = function(port) {
     }).listen(port);
 
     // Console will print the message
-    console.log('Server running at http://127.0.0.1:' + port + '/');
+    if (!port) {
+        console.log('ERR! : No Port Specified!');
+    }
+    else {
+        console.log('Server running at http://127.0.0.1:' + port + '/');
+    }
 };
 mrnode.transpile = function(file, dest) {
     gulp.task('default', function() {
@@ -149,5 +154,14 @@ mrnode.transpile = function(file, dest) {
             presets: ['es2015']
         }))
         .pipe(gulp.dest(dest));
-});
+    });
+    if(!file) {
+        console.log('ERR! : No File Specified');
+    }
+    else if(!dest) {
+        console.log('ERR! : No Destination Specified');
+    }
+    else {
+        console.log('Success! : File Transpiled!');
+    }
 };
