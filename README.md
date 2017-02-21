@@ -10,7 +10,7 @@ Mr.Node
 </p>
 <p align="center"><b>A Javascript Library for <a href="https://nodejs.org">Node.js</a> Functions</b></p>
 
-## Table Of Contents
+## Table of Contents
 
 - <a href="#about">**About**</a>
 - <a href="#docs">**Documentation**</a>
