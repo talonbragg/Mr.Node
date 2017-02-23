@@ -26,12 +26,12 @@ Node.js makes it very easy to use Javascript. Mr.Node make it even easier to use
 ## Documentation
 **Npm:** 
 ```shell
-npm install --save-dev mrnode
+$ npm install --save-dev mrnode
 ```
 
 **Bower:** 
 ```shell
-bower install --save-dev mrnode
+$ bower install --save-dev mrnode
 ```
 
 **CDN:**
@@ -92,4 +92,4 @@ In this example you add a destination to the `create();` function. The code for 
 
 [MIT License Template](https://opensource.org/licenses/MIT)
 
-:copyright: **2017 Talon Bragg**
+:copyright: **2017 Talon Bragg and Shreyas Lad**
