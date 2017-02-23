@@ -1,6 +1,6 @@
 {
   "name": "mrnode",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Javascript Library for Node.js Functions",
   "main": "dist/js/main.js",
   "scripts": {
