@@ -92,4 +92,4 @@ In this example you add a destination to the `create();` function. The code for 
 
 [MIT License Template](https://opensource.org/licenses/MIT)
 
-:copyright: **2017 Talon Bragg and Shreyas Lad**
+:copyright: **Talon Bragg and Shreyas Lad 2017**
