@@ -9,7 +9,7 @@ var minifyCSS = require('gulp-minify-css');
 var del = require('del');
 var vinylPaths = require('vinyl-paths');
 var beautify = require('gulp-beautify');
-var sass = require('gulp-sass');
+// (remove dis) var sass = require('gulp-sass');
 var rename = require('gulp-rename');
 var mrnode = module.exports;
 var should = require("chai").should(),
@@ -84,6 +84,7 @@ var should = require("chai").should(),
         console.log('Success! File Beautified!');
     }
 },
+/* kill dis
 csass = function(file, dest) {
     gulp.task('sass', function() {
         return gulp.src(file)
@@ -99,6 +100,7 @@ csass = function(file, dest) {
         console.log('Success! Sass converted into CSS!');
     }
 },
+*/
 renameit = function(file, newname, folderdest) {
     gulp.src(file)
         .pipe(rename(newname))

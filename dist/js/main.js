@@ -12,6 +12,7 @@ var minifyCSS = require('gulp-minify-css');
 var del = require('del');
 var vinylPaths = require('vinyl-paths');
 var beautify = require('gulp-beautify');
+// (remove node-sass until versions get sorted out) 
 var sass = require('gulp-sass');
 var rename = require('gulp-rename');
 var babel = require('gulp-babel');
@@ -92,6 +93,8 @@ mrnode.beautify = function(file, dest) {
         console.log('Success! File Beautified!');
     }
 };
+
+/* remove sass to css function until it stops crashing the build
 //Covert sass to css
 mrnode.csass = function(file, dest) {
     gulp.task('sass', function() {
@@ -108,6 +111,7 @@ mrnode.csass = function(file, dest) {
         console.log('Success! Sass converted into CSS!');
     }
 };
+*/
 mrnode.renameit = function(file, newname, folderdest) {
     gulp.src(file)
         .pipe(rename(newname))
