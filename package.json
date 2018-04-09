@@ -1,12 +1,10 @@
 {
   "name": "mrnode",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Javascript Library for Node.js Functions",
   "main": "dist/js/main.js",
   "scripts": {
-    "test": "mocha",
-    "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -32,7 +30,7 @@
       "main.js"
     ]
   },
-  "devDependencies": {
+  "dependencies": {
     "babel-preset-es2015": "^6.22.0",
     "chai": "latest",
     "custommarkup": "^1.1.12",
@@ -52,21 +50,7 @@
     "pump": "^1.0.2",
     "vinyl-paths": "^2.1.0"
   },
-  "dependencies": {
-    "del": "^2.2.2",
-    "fs": "^0.0.1-security",
-    "gulp": "^3.9.1",
-    "gulp-beautify": "^2.0.1",
-    "gulp-concat": "^2.6.1",
-    "gulp-load-plugins": "^1.5.0",
-    "gulp-minify-css": "^1.2.4",
-    "gulp-rename": "^1.2.2",
-    "gulp-sass": "^3.1.0",
-    "gulp-uglify": "^2.0.1",
-    "gulp-uglifyjs": "^0.6.2",
-    "pump": "^1.0.2"
-  },
   "directories": {
-    "test": "test"
+    "test": "tests"
   }
 }
